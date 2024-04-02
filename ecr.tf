@@ -1,10 +1,10 @@
 resource aws_ecr_repository "repository" {
-  name                 = "demo-repository"
+  name                 = "demo-repository1"
   image_tag_mutability = "MUTABLE"
 
 
   tags = merge({
-    Name = "demo-repository"
+    Name = "demo-repository1"
     }, {
     git_commit           = "e6d83b21346fe85d4fe28b16c0b2f1e0662eb1d7"
     git_file             = "terraform/aws/ecr.tf"

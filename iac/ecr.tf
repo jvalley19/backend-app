@@ -1,5 +1,5 @@
 resource aws_ecr_repository "repository" {
-  name                 = "ebilling-ecr-3retrfdf"
+  name                 = "ebilling-ecr-3retrfddf"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {
