@@ -28,7 +28,7 @@ resource "aws_s3_bucket" "finance-secret-s3-bucket" {
   force_destroy = true
   tags = {
       Name = "finance-secret-${var.ebillingid}"
-      Description = "ebilling ${var.ebillingid} S3 Bucket used for storing a secret"
+      Description = "ebillidng ${var.ebillingid} S3 Bucket used for storing a secret"
       Stack = "${var.stack-name}"
       Scenario = "${var.scenario-name}"
   }
